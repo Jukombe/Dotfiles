@@ -1,0 +1,10 @@
+prompt=
+width=480
+height=40%
+lines=6
+show_icons=false
+allow_images=false
+hide_scroll=true
+location=center
+gtk_dark=true
+
