@@ -1,0 +1,9 @@
+{
+  "layer": "top",
+  "position": "top",
+  "output": "HDMI-A-1", // ← KDE will ignore this
+  "modules-left": ["workspaces"],
+  "modules-center": [],
+  "modules-right": ["clock"]
+}
+

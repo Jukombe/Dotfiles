@@ -1,10 +1,16 @@
-prompt=
-width=480
-height=40%
-lines=6
-show_icons=false
-allow_images=false
+[config]
+allow_images=true
+width=500
+show=drun
+height=400
+term=kitty
 hide_scroll=true
-location=center
-gtk_dark=true
+print_command=true
+insensitive=true
+columns=1
+no_actions=true
+prompt=C:/
+hide_search_icon=true
+allow_images=false
+max-results=6   # fewer suggestions (default is usually higher)
 

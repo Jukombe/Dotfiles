@@ -1,28 +1,59 @@
 window {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgba(10, 10, 10, 0.9);
-    font-family: "JetBrains Mono", "monospace";
-    font-size: 16px;
-    color: #66ff99;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    font-family: "VT323", monospace;
+    font-size: 40px;
+    color: #0f0;
 }
 
 #input {
-    margin: 10px;
-    padding: 6px;
-    background-color: rgba(20, 20, 20, 0.7);
+    background-color: rgba(0, 0, 0, 0);
+    color: #0f0;
     border: none;
-    color: #aaffcc;
+    padding: 12px 20px;
+    font-size: 40px;
+}
+
+/* Hide all icons: magnifying glass and app icons */
+#prompt-icon,
+#input image,
+#input .search-icon,
+#entry image {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#input label {
+    color: #0f0;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#outer-box, #inner-box, #scroll {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #entry {
-    padding: 8px;
-    background-color: transparent;
-    color: #aaffcc;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0f0;
+    padding: 8px 20px;
+    font-size: 40px;
 }
 
 #entry:selected {
-    background-color: rgba(100, 255, 200, 0.15);
-    color: #ffffff;
+    background-color: transparent;
+    color: #0a0;
 }
+
+
+font-family: "VT323", monospace;
 
